@@ -1,0 +1,161 @@
+
+body{
+	background-image: url("imagem/foto7.jpeg");
+}
+
+header{
+	
+	height: 300px;
+    text-align: center;
+
+	
+}
+div.banner{
+	margin-top: -2vh;
+}
+.logo{
+	margin-left: 3vw;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	align-items: center;
+	margin-top: 2vh;
+}
+.menu{
+	align-items: center;
+	margin-top: 4vh;
+	margin-right: -100vw;
+}
+nav ul, 
+nav li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+	font-family: 'Alfa Slab One', cursive;
+}
+nav ul{
+	display: flex;
+}
+nav a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;	
+}
+nav .active a,
+nav a:hover{
+	background-color: silver;
+	color: black;
+}
+
+input{
+	margin-top: 20vh;
+	margin-right: 30vw;
+	border-radius: 25px;
+	padding: 10px;
+	padding-right: 15vw;
+	padding-left: 5vw;
+	background-color: white;
+	color: #3D3D3D;
+    font-size: 18px;
+	font-weight: 100;
+	width: 25vw;
+	
+}
+div.conteudo-img{
+	display: flex;
+	justify-content: center;
+}
+div.card{
+	margin-top: 35px; 
+	margin-left: 2vw;
+	max-width: 500px;
+	min-height: 100px;
+	background-color: white;
+	padding-bottom: 2vh;
+    font-weight: bold;
+}
+div.card2{
+	margin-top: 20px; 
+	margin-left: 2vw;
+	max-width: 500px;
+	min-height: 100px;
+	background-color: white;
+	padding-bottom:8vh;
+}
+div.img1:hover {
+	opacity: 0.8;
+}
+div.text3{
+	margin-top: -23px;
+	background-color: #43413c;
+	height: 3vh;
+	font-family: Arial;
+	word-spacing: 3px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 35px;
+	padding-top: 10px;
+	
+}
+div.endereco{
+	background-color: white;
+	color: #5D5A56;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 2vh;
+	margin-bottom: 0px;
+}
+div.centro{
+	text-align: center;
+	height: 100%;
+
+}
+div.nov{
+	margin-top: 15vh;
+	padding-top: 5vh;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	height: 20vh;
+	background-color: #222222;
+	text-align: center;
+	width: 100%;
+}
+#input2{
+	margin-top: -20vh;
+	margin-left: 25vw;
+	margin-bottom: 10vh;
+	padding: 10px;
+	padding-right: 15vw;
+	color: #3D3D3D;
+    font-size: 18px;
+	font-weight: 100;
+	width: 25vw;
+}
+#input2 input{
+	width: 24vw;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+@media (min-width: 771px) and (max-width: 1365px){
+	div.conteudo-img{
+		display: flex;
+		flex-direction: column;
+	}
+	div.card{
+		max-width: 100%;
+		min-height: 100px;
+		background-color: white;
+		padding-bottom: 6vh;
+		margin-top: -35px; 
+	}
+	div.img1 img{
+		width: 100%;
+	}
+}
